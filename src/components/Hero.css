@@ -1,0 +1,15 @@
+.hero {
+  background: var(--gradient-color);
+  min-height: 42vh;
+  padding-top: 5vh;
+}
+
+section.hero > p {
+  padding-left: 29vw;
+  padding-right: 29vw;
+  margin: 3%;
+}
+
+section.hero > button {
+  margin-bottom: 5vh;
+}

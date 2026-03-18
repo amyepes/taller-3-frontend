@@ -1,0 +1,26 @@
+#cursos {
+  background-color: white;
+  color: black;
+  min-height: 42vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#cursos > h2 {
+  font-size: 2rem;
+  margin-top: 7vh;
+  margin-bottom: auto;
+}
+
+#cursos > p {
+  margin-bottom: 5vh;
+}
+
+.tarjetas {
+  display: flex;
+  justify-content: space-between;
+  gap: 2vw;
+  margin-bottom: 9vh;
+  
+}

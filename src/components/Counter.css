@@ -1,0 +1,39 @@
+#nosotros {
+  background-color: #1a1a2e;
+  min-height: 49vh;
+  padding-top: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#nosotros > h2 {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+#nosotros > p {
+  margin-bottom: 50px;
+}
+
+.counterDiv {
+    background-color: #16213e;
+    min-height: 80px;
+    max-width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.counterDiv > button {
+    padding: 0.9em 1.1em;
+    font-size: 0.8em;
+    margin: 3em;
+    border-radius: 100%;
+}
+
+.counterDiv > span {
+    font-size: 2.5em;
+    font-weight: 1000;
+}
