@@ -1,14 +1,16 @@
 import { Link } from 'react-router';
 import Cursos from '../components/Cursos'
+import './Courses.css'
 
 function Courses() {
     return (
-        <div>
-            <h1>Página Cursos</h1>
-            <p>La dirección que buscas existe.</p>
-            <Cursos/>
-            <Link to="/">Volver al inicio</Link>
-        </div>
+        <main className='courses-page'>
+           
+
+            <Cursos />
+
+            <Link className='courses-back-link' to="/">Volver al inicio</Link>
+        </main>
     );
 };
 

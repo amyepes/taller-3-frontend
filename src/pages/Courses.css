@@ -1,0 +1,36 @@
+.courses-page {
+  background: #ffffff;
+  min-height: 100vh;
+  padding: 2.5rem 1rem 3rem;
+}
+
+.courses-hero {
+  max-width: 980px;
+  margin: 0 auto 1.5rem;
+  text-align: center;
+}
+
+.courses-hero h1 {
+  margin: 0;
+  color: #191a2e;
+  font-size: clamp(1.8rem, 2.8vw, 2.4rem);
+}
+
+.courses-hero p {
+  margin: 0.7rem auto 0;
+  max-width: 640px;
+  color: #6e6e78;
+  font-size: 1rem;
+}
+
+.courses-back-link {
+  display: inline-block;
+  margin-top: 2rem;
+  color: #e94560;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.courses-back-link:hover {
+  text-decoration: underline;
+}
