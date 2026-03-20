@@ -22,13 +22,10 @@ function Login() {
     const onSubmit = async (data) => {
         setIsSubmitting(true);
         try {
-            // Simular envío al servidor
             console.log('Datos enviados:', data);
             
-            // Esperar 1.5 segundos para simular verificación
             await new Promise(resolve => setTimeout(resolve, 1500));
             
-            // Redirigir a home después de "enviar"
             navigate('/');
         } catch (error) {
             setError('submit', { message: 'Error al iniciar sesión' });
@@ -43,7 +40,6 @@ function Login() {
                 <p className="login-subtitle">Accede a tu cuenta para continuar</p>
 
                 <form onSubmit={handleSubmit(onSubmit)} className="login-form">
-                    {/* Campo Email */}
                     <div className="form-group">
                         <label htmlFor="email" className="form-label">
                             Correo Electrónico
@@ -70,7 +66,6 @@ function Login() {
                         )}
                     </div>
 
-                    {/* Campo Contraseña */}
                     <div className="form-group">
                         <label htmlFor="password" className="form-label">
                             Contraseña
@@ -97,12 +92,10 @@ function Login() {
                         )}
                     </div>
 
-                    {/* Mensaje de ayuda */}
                     <div className="help-text">
                         <p>Usa un correo válido y una contraseña de al menos 6 caracteres</p>
                     </div>
 
-                    {/* Botón Submit */}
                     <button
                         type="submit"
                         className={`login-button ${isFormValid ? 'active' : 'disabled'} ${isSubmitting ? 'loading' : ''}`}
@@ -118,7 +111,6 @@ function Login() {
                         )}
                     </button>
 
-                    {/* Enlace de vuelta */}
                     <div className="back-link">
                         <a href="/">Volver al inicio</a>
                     </div>
