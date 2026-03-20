@@ -10,14 +10,10 @@ function Start() {
 
   return (
     <>
-      <Navbar/>
-
+      {/*<Navbar/>*/}
       <Hero/>
-
-      <Cursos/>
-
+      
       <Counter />
-
       <Copy/>
     </>
   )

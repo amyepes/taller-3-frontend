@@ -19,3 +19,7 @@
   justify-content: space-between;
   gap: 2vw;
 }
+
+.special-li {
+  border-color: aliceblue;
+}
